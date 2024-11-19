@@ -1,0 +1,13 @@
+prefix=C:/Users/DELL/Desktop/resume-analyser/venv/Library
+exec_prefix=C:/Users/DELL/Desktop/resume-analyser/venv/Library
+libdir=C:/Users/DELL/Desktop/resume-analyser/venv/Library/lib
+sharedlibdir=C:/Users/DELL/Desktop/resume-analyser/venv/Library/lib
+includedir=C:/Users/DELL/Desktop/resume-analyser/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
