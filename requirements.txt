@@ -1,5 +1,11 @@
 streamlit
 google-generativeai
 python-dotenv
-pdf2image
 poppler-utils
+PyPDF2
+streamlit-lottie
+requests
+fpdf
+matplotlib
+wordcloud
+
