@@ -8,15 +8,16 @@ The **Smart Resume Analyzer** is a powerful AI-driven web application that enabl
 
 - 📄 Upload Resume in PDF Format
 - 📊 Evaluate Resume Against Key Parameters:
-  
-  📄 **Resume Summary** (Gemini-powered)
-  🛠 **Skill Gap Analysis**
-   📊 **ATS Compatibility & Match Percentage**
-  🔍 **Keyword Detection & Word Cloud**
-  💼 **Job Role Recommendations**
-  🎓 **Course & Certification Suggestions**
-  🧩 **Resume Tailoring to Job Description**
 
+- 📄 **Resume Summary** (Gemini-powered)
+- 🛠 **Skill Gap Analysis**
+- 📊 **ATS Compatibility & Match Percentage**
+- 🔍 **Keyword Detection & Word Cloud**
+- 💼 **Job Role Recommendations**
+- 🎓 **Course & Certification Suggestions**
+- 🧩 **Resume Tailoring to Job Description**
+
+  
 - 💬 AI-Generated Summary (via OpenAI API)
 - ✅ Get Instant Score & Feedback
 - 🧠 Powered by NLP and AI
