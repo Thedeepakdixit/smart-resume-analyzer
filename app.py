@@ -69,7 +69,7 @@ st.markdown("""
 st.sidebar.title("📘 About")
 st.sidebar.info("This tool helps you analyze your resume against job descriptions using Google's Gemini AI.")
 st.sidebar.markdown("---")
-st.sidebar.markdown("👤 Built by **Team Oppenheimer**")
+st.sidebar.markdown("👤 Built by **Deepak Dixit**")
 
 # Animation on top
 with st.container():
