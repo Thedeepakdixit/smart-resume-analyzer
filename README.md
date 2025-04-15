@@ -1,6 +1,6 @@
 # 🧠 Smart Resume Analyzer
 
-The **Smart Resume Analyzer** is a powerful AI-driven web application that enables users to upload their resumes (in PDF format), and instantly receive personalized feedback based on predefined HR criteria. It also generates a summary of the resume using OpenAI's GPT API.
+The **Smart Resume Analyzer** is a powerful AI-driven web application that enables users to upload their resumes (in PDF format), and instantly receive personalized feedback based on predefined HR criteria. It also generates a summary of the resume using Gemini-Pro API.
 
 ---
 
@@ -8,10 +8,15 @@ The **Smart Resume Analyzer** is a powerful AI-driven web application that enabl
 
 - 📄 Upload Resume in PDF Format
 - 📊 Evaluate Resume Against Key Parameters:
-  - Presence of Email & Contact Number
-  - Inclusion of Projects, Certifications, Hobbies
-  - Use of Action Words
-  - Profile Summary Quality
+  
+  📄 **Resume Summary** (Gemini-powered)
+  🛠 **Skill Gap Analysis**
+   📊 **ATS Compatibility & Match Percentage**
+  🔍 **Keyword Detection & Word Cloud**
+  💼 **Job Role Recommendations**
+  🎓 **Course & Certification Suggestions**
+  🧩 **Resume Tailoring to Job Description**
+
 - 💬 AI-Generated Summary (via OpenAI API)
 - ✅ Get Instant Score & Feedback
 - 🧠 Powered by NLP and AI
@@ -24,7 +29,7 @@ The **Smart Resume Analyzer** is a powerful AI-driven web application that enabl
 - **Streamlit** – for interactive UI
 - **PyPDF2** – for parsing PDF files
 - **re (Regex)** – for data extraction
-- **OpenAI GPT** – for intelligent feedback and summaries
+- **Gemini GPT** – for intelligent feedback and summaries
 
 ---
 
@@ -65,7 +70,7 @@ OPENAI_API_KEY=your_openai_key_here
 ### ▶️ 4. Run the App
 
 ```bash
-streamlit run main.py
+streamlit run app.py
 ```
 
 ---
@@ -85,7 +90,7 @@ streamlit run main.py
 ```bash
 smart-resume-analyzer/
 │
-├── main.py               # Streamlit app code
+├── app.py                # Streamlit app code
 ├── requirements.txt      # Python dependencies
 └── README.md             # Project documentation
 ```
@@ -102,7 +107,7 @@ smart-resume-analyzer/
 
 ## 🧑‍💻 Author
 
-**Team Oppenheimer**  
+**Deepak Dixit**  
 📧  
 🔗 [GitHub](https://github.com/Thedeepakdixit/smart-resume-analyzer.git) |
 
