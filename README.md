@@ -18,7 +18,7 @@ The **Smart Resume Analyzer** is a powerful AI-driven web application that enabl
 - 🧩 **Resume Tailoring to Job Description**
 
   
-- 💬 AI-Generated Summary (via OpenAI API)
+- 💬 AI-Generated Summary (via Gemini API)
 - ✅ Get Instant Score & Feedback
 - 🧠 Powered by NLP and AI
 
